@@ -1,0 +1,27 @@
+{
+  "name": "weekend_challenge_03",
+  "version": "1.0.0",
+  "description": "weekend challenge 3, calculator app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyg4732/Weekend_Challenge_3.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "jquery"
+  ],
+  "author": "priscillayg23@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyg4732/Weekend_Challenge_3/issues"
+  },
+  "homepage": "https://github.com/pyg4732/Weekend_Challenge_3#readme",
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  }
+}
