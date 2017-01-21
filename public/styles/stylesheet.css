@@ -1,0 +1,17 @@
+header{
+  text-align: center;
+}
+
+body{
+  background-color: #7eeab6;
+}
+
+h1{
+  font-family: 'Megrim';
+  font-size: 80px;
+  font-weight: bold;
+}
+
+header p{
+  font-family: 'Codystar';
+}
