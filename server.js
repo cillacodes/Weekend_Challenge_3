@@ -38,8 +38,8 @@ app.post('/calc', function(req, res) {
       case 'multiply':
         res.send({result: x*y});
         break;
-      // default:
-      //   res.sendStatus(200);
+      default:
+        res.sendStatus(200);
 
     }
 });

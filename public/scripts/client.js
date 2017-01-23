@@ -14,12 +14,14 @@ $(document).ready(function () {
 
   $('.operator').on('click', function() {
     event.preventDefault();
-    // ('button').effect("highlight", {color: "#669966"}, 3000);
+
     console.log("inside click event");
     mathObj.x = $('#x').val();
     mathObj.y = $('#y').val();
     mathObj.operator = $(this).attr('id');
     console.log(mathObj);
+
+    // $('.operator').effect("highlight", {color: "#669966"}, 3000);
 
 
 });
@@ -44,8 +46,8 @@ function calculate() {
     success: function(response) {
       console.log(response.result);
       $('#result').append(response.result);
-    }
-  });
+    }//success bracket
+  });//ajax end
 
 }//end of cal fnc
 
