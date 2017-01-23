@@ -15,30 +15,46 @@ h1{
   font-weight: bold;
 }
 
+footer{
+  width: 100%;
+  margin: 50px 50px 50px 50px;
+  padding: 80px 80px 80px 80px;
+}
+
 footer span{
   color: #25edaa;
   font-family: 'Codystar';
+  font-size: 30px;
+  margin: 30px 30px 30px 30px;
 }
 
 form input{
-  border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #25edaa;;
   text-align: center;
   background-color: white;
-  width: 120px;
+  width: 175px;
   height: 30px;
   display: inline-block;
   font-family: 'Megrim';
+  font-size: 20px;
+  font-weight: bold;
   margin: 10px 10px 10px 10px
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 8px;
 
 }
 
 form input:focus{
-  border: 3px solid #555;
+  border: 3px solid #f44e42;
 }
 
 #calcContainer{
-
+margin: auto;
+width: 50%;
+border: 3px solid #25edaa;
+padding: 50px 50px 50px 50px;
+text-align: center;
 }
 
 .operator{
@@ -52,30 +68,121 @@ form input:focus{
 
 }
 
+#result{
+  width: 185px;
+  height: 30px;
+  border-bottom: 2px solid #25edaa;;
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Megrim';
+  font-size: 20px;
+  font-weight: bold;
+}
+
 #clear{
-  width: 55px;
+  width: 95px;
   height: 40px;
   margin: 5px 5px 5px 5px;
   font-family: 'Megrim';
   font-size: 15px;
   text-align: center;
 
-}
-
-#result{
-  width: 120px;
-  height: 30px;
-  border: none;
-  border-bottom: 2px solid black;
-  text-align: center;
-  background-color: white;
 }
 
 #submit{
-  width: 55px;
+  width: 95px;
   height: 40px;
   margin: 5px 5px 5px 5px;
   font-family: 'Megrim';
+  text-align: center;
   font-size: 15px;
   text-align: center;
+}
+
+#spaceInvader1{
+  box-shadow:
+    0 0 0 1em #47e241,
+    0 1em 0 1em #47e241,
+    -2.5em 1.5em 0 .5em #47e241,
+    2.5em 1.5em 0 .5em #47e241,
+    -3em -3em 0 0 #47e241,
+    3em -3em 0 0 #47e241,
+    -2em -2em 0 0 #47e241,
+    2em -2em 0 0 #47e241,
+    -3em -1em 0 0 #47e241,
+    -2em -1em 0 0 #47e241,
+    2em -1em 0 0 #47e241,
+    3em -1em 0 0 #47e241,
+    -4em 0 0 0 #47e241,
+    -3em 0 0 0 #47e241,
+    3em 0 0 0 #47e241,
+    4em 0 0 0 #47e241,
+    -5em 1em 0 0 #47e241,
+    -4em 1em 0 0 #47e241,
+    4em 1em 0 0 #47e241,
+    5em 1em 0 0 #47e241,
+    -5em 2em 0 0 #47e241,
+    5em 2em 0 0 #47e241,
+    -5em 3em 0 0 #47e241,
+    -3em 3em 0 0 #47e241,
+    3em 3em 0 0 #47e241,
+    5em 3em 0 0 #47e241,
+    -2em 4em 0 0 #47e241,
+    -1em 4em 0 0 #47e241,
+    1em 4em 0 0 #47e241,
+    2em 4em 0 0 #47e241;
+
+    background: #47e241;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 50px 50px 70px 65px;
+}
+
+#spaceInvader2{
+  float: right;
+  box-shadow:
+    0 0 0 1em #f72a2a,
+    0 1em 0 1em #f72a2a,
+    -2.5em 1.5em 0 .5em #f72a2a,
+    2.5em 1.5em 0 .5em #f72a2a,
+    -3em -3em 0 0 #f72a2a,
+    3em -3em 0 0 #f72a2a,
+    -2em -2em 0 0 #f72a2a,
+    2em -2em 0 0 #f72a2a,
+    -3em -1em 0 0 #f72a2a,
+    -2em -1em 0 0 #f72a2a,
+    2em -1em 0 0 #f72a2a,
+    3em -1em 0 0 #f72a2a,
+    -4em 0 0 0 #f72a2a,
+    -3em 0 0 0 #f72a2a,
+    3em 0 0 0 #f72a2a,
+    4em 0 0 0 #f72a2a,
+    -5em 1em 0 0 #f72a2a,
+    -4em 1em 0 0 #f72a2a,
+    4em 1em 0 0 #f72a2a,
+    5em 1em 0 0 #f72a2a,
+    -5em 2em 0 0 #f72a2a,
+    5em 2em 0 0 #f72a2a,
+    5em 2em 0 0 #f72a2a,
+    -5em 3em 0 0 #f72a2a,
+    -3em 3em 0 0 #f72a2a,
+    3em 3em 0 0 #f72a2a,
+    5em 3em 0 0 #f72a2a,
+    -2em 4em 0 0 #f72a2a,
+    -1em 4em 0 0 #f72a2a,
+    1em 4em 0 0 #f72a2a,
+    2em 4em 0 0 #f72a2a;
+
+    background: #f72a2a;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 50px 50px 70px 65px;
+
 }
